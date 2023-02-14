@@ -1,8 +1,13 @@
 import React from "react";
+import Cv from "./components/Cv";
 
 class App extends React.Component {
   render() {
-    return <div className="App"></div>;
+    return (
+      <main>
+        <Cv />
+      </main>
+    );
   }
 }
 
