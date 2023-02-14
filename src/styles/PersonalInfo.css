@@ -1,0 +1,55 @@
+.info-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  border-bottom: 4px solid;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.contact-details {
+  grid-column: 1/3;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem;
+}
+
+.edit-button,
+.save-button {
+  position: absolute;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.change-photo {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  color: #ffffff8c;
+  background-color: #00000059;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.cancel-button {
+  position: absolute;
+  left: 3rem;
+}
