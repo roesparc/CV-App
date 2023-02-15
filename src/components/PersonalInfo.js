@@ -1,6 +1,6 @@
 import React from "react";
-import examplePhoto from "../assets/example-photo.jpg";
 import "../styles/PersonalInfo.css";
+import { samplePersonalInfo } from "../assets/templateContent";
 import PersonalInfoForm from "./PersonalInfoForm";
 import PersonalInfoOverview from "./PersonalInfoOverview";
 
@@ -10,12 +10,13 @@ class PersonalInfo extends React.Component {
 
     this.state = {
       isEditing: false,
-      name: "John Doe",
-      title: "Software Developer",
-      mail: "john_doe@mail.com",
-      phone: "012 345 6789",
-      location: "Mexico City",
-      photoUrl: examplePhoto,
+
+      name: samplePersonalInfo.name,
+      title: samplePersonalInfo.title,
+      mail: samplePersonalInfo.mail,
+      phone: samplePersonalInfo.phone,
+      location: samplePersonalInfo.location,
+      photoUrl: samplePersonalInfo.photoUrl,
     };
 
     this.unsavedChanges = undefined;
