@@ -5,7 +5,7 @@ class PersonalInfoOverview extends React.Component {
     const { personalInfo, activateEdit } = this.props;
 
     return (
-      <div className="info-container">
+      <div className="overview">
         <div className="heading">
           <h2>{personalInfo.name}</h2>
           <h3>{personalInfo.title}</h3>

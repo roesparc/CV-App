@@ -11,7 +11,7 @@ class PersonalInfoForm extends React.Component {
     } = this.props;
 
     return (
-      <form className="info-container" onSubmit={saveChanges}>
+      <form className="personal-info-form" onSubmit={saveChanges}>
         <div className="heading">
           <input
             type="text"

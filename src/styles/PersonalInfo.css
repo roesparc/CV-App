@@ -1,40 +1,46 @@
-.info-container {
+.personal-info .personal-info-form,
+.personal-info .overview {
   position: relative;
   display: grid;
   grid-template-columns: 1fr auto;
   border-bottom: 4px solid;
 }
 
-.heading {
+.personal-info .heading {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-img {
+.personal-info img {
   width: 10rem;
   height: 10rem;
   border-radius: 50%;
   object-fit: cover;
 }
 
-.contact-details {
+.personal-info .contact-details {
   grid-column: 1/3;
   display: flex;
   justify-content: space-evenly;
   margin: 1rem;
 }
 
-.edit-button,
-.save-button {
+.personal-info .edit-button,
+.personal-info .save-button,
+.personal-info .cancel-button {
   position: absolute;
 }
 
-input[type="file"] {
+.personal-info .cancel-button {
+  left: 3rem;
+}
+
+.personal-info input[type="file"] {
   display: none;
 }
 
-.change-photo {
+.personal-info .change-photo {
   position: absolute;
   width: 10rem;
   height: 10rem;
@@ -47,9 +53,4 @@ input[type="file"] {
   background-color: #00000059;
   border-radius: 50%;
   cursor: pointer;
-}
-
-.cancel-button {
-  position: absolute;
-  left: 3rem;
 }
