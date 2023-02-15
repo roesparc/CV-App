@@ -1,0 +1,30 @@
+.introduction {
+  position: relative;
+  margin-top: 2rem;
+}
+
+.introduction .edit-button {
+  position: absolute;
+  top: 0;
+  left: 9rem;
+}
+
+.introduction .save-button,
+.introduction .cancel-button {
+  position: absolute;
+  top: 0;
+}
+
+.introduction .save-button {
+  left: 9rem;
+}
+
+.introduction .cancel-button {
+  left: 12rem;
+}
+
+.introduction textarea {
+  width: 100%;
+  height: 6rem;
+  resize: none;
+}
