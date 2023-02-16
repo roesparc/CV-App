@@ -53,3 +53,29 @@ export const sampleWorkExperience = {
     description: "",
   }),
 };
+
+export const sampleEducation = {
+  sample1: {
+    id: uniqid(),
+    fieldOfStudy: "Computer Science",
+    institution: "Harvard University",
+    startDate: "2014",
+    endDate: "2019",
+  },
+
+  sample2: {
+    id: uniqid(),
+    fieldOfStudy: "Marketing",
+    institution: "Stanford University",
+    startDate: "2010",
+    endDate: "2014",
+  },
+
+  emptyTemplate: () => ({
+    id: uniqid(),
+    fieldOfStudy: "",
+    institution: "",
+    startDate: "",
+    endDate: "",
+  }),
+};
