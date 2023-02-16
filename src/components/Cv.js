@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/Cv.css";
 import PersonalInfo from "./PersonalInfo";
 import Introduction from "./Introduction";
+import WorkExperience from "./WorkExperience";
 
 class Cv extends React.Component {
   render() {
@@ -9,6 +10,7 @@ class Cv extends React.Component {
       <div className="cv-create">
         <PersonalInfo />
         <Introduction />
+        <WorkExperience />
       </div>
     );
   }
