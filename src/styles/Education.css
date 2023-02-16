@@ -1,0 +1,40 @@
+.education {
+  position: relative;
+  margin-top: 2rem;
+}
+
+.education .education-entry {
+  display: flex;
+  justify-content: space-between;
+}
+
+.education .edit-button {
+  position: absolute;
+  top: 0;
+  left: 7rem;
+}
+
+.education .education-entry-edit {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  margin-bottom: 1rem;
+}
+
+.education .delete-button {
+  width: fit-content;
+}
+
+.education .save-button,
+.education .cancel-button {
+  position: absolute;
+}
+
+.education .save-button {
+  top: 0;
+  left: 7rem;
+}
+
+.education .cancel-button {
+  top: 0;
+  left: 10rem;
+}
