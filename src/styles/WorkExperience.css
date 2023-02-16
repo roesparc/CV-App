@@ -1,0 +1,48 @@
+.work-experience {
+  position: relative;
+  margin-top: 2rem;
+}
+
+.work-experience .job,
+.work-experience .job-edit {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  margin-bottom: 1rem;
+}
+
+.work-experience .description,
+.work-experience .description-edit {
+  grid-column: 1/3;
+}
+
+.work-experience .edit-button {
+  position: absolute;
+  top: 0;
+  left: 12rem;
+}
+
+.work-experience .delete-button {
+  width: fit-content;
+}
+
+.start-end-date-edit input {
+  width: 5rem;
+}
+
+.work-experience .save-button,
+.work-experience .cancel-button {
+  position: absolute;
+  top: 0;
+}
+
+.work-experience .save-button {
+  left: 12rem;
+}
+
+.work-experience .cancel-button {
+  left: 15rem;
+}
+
+.work-experience .description-edit {
+  resize: none;
+}
