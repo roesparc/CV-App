@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles/PersonalInfo.css";
-import { samplePersonalInfo } from "../assets/templateContent";
+import "../../styles/PersonalInfo.css";
+import { samplePersonalInfo } from "../../assets/templateContent";
 import PersonalInfoForm from "./PersonalInfoForm";
 import PersonalInfoOverview from "./PersonalInfoOverview";
 

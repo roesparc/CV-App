@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles/Education.css";
-import { sampleEducation } from "../assets/templateContent";
+import "../../styles/Education.css";
+import { sampleEducation } from "../../assets/templateContent";
 import EducationForm from "./EducationForm";
 import EducationOverview from "./EducationOverview";
 

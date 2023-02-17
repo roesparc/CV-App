@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles/Introduction.css";
-import { introductionContent } from "../assets/templateContent";
+import "../../styles/Introduction.css";
+import { introductionContent } from "../../assets/templateContent";
 import IntroductionForm from "./IntroductionForm";
 import IntroductionOverview from "./IntroductionOverview";
 

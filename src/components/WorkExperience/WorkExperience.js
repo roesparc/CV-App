@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles/WorkExperience.css";
-import { sampleWorkExperience } from "../assets/templateContent";
+import "../../styles/WorkExperience.css";
+import { sampleWorkExperience } from "../../assets/templateContent";
 import WorkExperienceForm from "./WorkExperienceForm";
 import WorkExperienceOverview from "./WorkExperienceOverview";
 
