@@ -1,5 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 :root {
   font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+
+  --template-color-1: #195c70;
+  --template-color-2: #81aebb;
+  --template-color-3: #377ea4;
+  --template-color-4: #5e5e5e;
+  --background-color: #cccccc;
 }
 
 * {
@@ -9,5 +18,5 @@
 
 body {
   min-height: 100vh;
-  background-color: grey;
+  background-color: var(--background-color);
 }

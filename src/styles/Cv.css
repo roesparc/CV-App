@@ -1,7 +1,106 @@
 .cv-create {
   width: 210mm;
-  height: 297mm;
+  min-height: 297mm;
   padding: 3rem;
+  margin: auto;
   box-sizing: border-box;
   background-color: white;
+  box-shadow: 0 5px 12px var(--template-color-4);
+}
+
+.cv-create button {
+  cursor: pointer;
+  height: 29px;
+  padding: 0 1rem;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.cv-create .save-button,
+.cv-create .cancel-button,
+.cv-create .edit-button {
+  position: absolute;
+  top: 0;
+}
+
+.cv-create button:hover {
+  opacity: 0.9;
+}
+
+.cv-create .edit-button {
+  background-color: var(--template-color-1);
+}
+
+.cv-create .save-button {
+  background-color: #559b4b;
+}
+
+.cv-create .cancel-button {
+  background-color: var(--template-color-3);
+}
+
+.cv-create .delete-button {
+  width: fit-content;
+  margin: 1px;
+  background-color: #da4167;
+}
+
+.cv-create .add-button {
+  margin: 1px;
+  background-color: var(--template-color-3);
+}
+
+.cv-create input,
+.cv-create textarea,
+.cv-create button {
+  font-family: "Montserrat", sans-serif;
+}
+
+.cv-create .start-end-date-edit input {
+  width: 5rem;
+}
+
+.cv-create input,
+.cv-create textarea {
+  margin: 1px;
+  padding: 0.5rem;
+  border: 2px solid var(--template-color-2);
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  outline: none;
+}
+
+.cv-create textarea {
+  width: 100%;
+  resize: none;
+}
+
+.cv-create h2 {
+  color: var(--template-color-3);
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.cv-create h3 {
+  color: var(--template-color-4);
+  margin-bottom: 0.5rem;
+}
+
+.cv-create .h3-thin {
+  font-weight: normal;
+  color: var(--template-color-3);
+}
+
+.cv-create .introduction,
+.cv-create .work-experience,
+.cv-create .education {
+  margin-top: 2rem;
+}
+
+.cv-create .start-end-date {
+  font-weight: bold;
+  color: var(--template-color-4);
 }
