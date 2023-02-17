@@ -9,7 +9,7 @@ class WorkExperienceOverview extends React.Component {
         {jobHistory.map((job) => (
           <div key={job.id} className="job">
             <h3 className="position-company">
-              {job.position} | {job.company}
+              {job.position} | <span className="h3-thin">{job.company}</span>
             </h3>
 
             <p className="start-end-date">

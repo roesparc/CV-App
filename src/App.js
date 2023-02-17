@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles/App.css";
 import Cv from "./components/Cv";
 
 class App extends React.Component {
@@ -18,7 +19,7 @@ class App extends React.Component {
             By <a href="https://github.com/roesparc/">roesparc</a>
           </p>
           <a href="https://github.com/roesparc/">
-            <i class="fa-brands fa-github"></i>
+            <i className="fa-brands fa-github"></i>
           </a>
         </footer>
       </div>

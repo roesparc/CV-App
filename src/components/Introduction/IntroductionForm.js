@@ -6,7 +6,11 @@ class IntroductionForm extends React.Component {
 
     return (
       <form className="introduction-form" onSubmit={saveChanges}>
-        <textarea value={content} onChange={inputChange} />
+        <textarea
+          value={content}
+          placeholder="Introduction"
+          onChange={inputChange}
+        />
 
         <button className="save-button">Save</button>
         <button className="cancel-button" onClick={cancelChanges}>

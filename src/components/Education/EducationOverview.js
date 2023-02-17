@@ -9,7 +9,8 @@ class EducationOverview extends React.Component {
         {educationHistory.map((educationEntry) => (
           <div key={educationEntry.id} className="education-entry">
             <h3 className="field-institution">
-              {educationEntry.fieldOfStudy} | {educationEntry.institution}
+              {educationEntry.fieldOfStudy} |{" "}
+              <span className="h3-thin">{educationEntry.institution}</span>
             </h3>
 
             <p className="start-end-date">

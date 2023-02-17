@@ -6,7 +6,7 @@ export const samplePersonalInfo = {
   title: "Software Developer",
   mail: "john_doe@mail.com",
   phone: "012 345 6789",
-  location: "Mexico City",
+  location: "Planet Earth",
   photoUrl: examplePhoto,
 };
 

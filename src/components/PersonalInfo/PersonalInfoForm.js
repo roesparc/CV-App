@@ -39,7 +39,7 @@ class PersonalInfoForm extends React.Component {
             <input
               type="text"
               defaultValue={personalInfo.mail}
-              placeholder="Title"
+              placeholder="Email"
               onChange={(e) => inputChange(e, "mail")}
             />
           </label>
@@ -49,7 +49,7 @@ class PersonalInfoForm extends React.Component {
             <input
               type="text"
               defaultValue={personalInfo.phone}
-              placeholder="Title"
+              placeholder="Phone Number"
               onChange={(e) => inputChange(e, "phone")}
             />
           </label>
@@ -59,7 +59,7 @@ class PersonalInfoForm extends React.Component {
             <input
               type="text"
               defaultValue={personalInfo.location}
-              placeholder="Title"
+              placeholder="Location"
               onChange={(e) => inputChange(e, "location")}
             />
           </label>
