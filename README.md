@@ -2,7 +2,7 @@
 
 ## [Live Demo](https://roesparc.github.io/CV-App/)
 
-![preview](https://user-images.githubusercontent.com/52899682/219814844-839b0800-a4e3-4f7a-84f1-98efd1a996d8.jpg)
+![preview](https://user-images.githubusercontent.com/52899682/221002235-a7cbb9bc-4cc0-4e44-844c-8fd250aa13a7.jpg)
 
 ## React: Components, Props and State
 
@@ -14,4 +14,5 @@ The main goal of this project is to practice React components, props and state b
 - The edit mode lets users see the previously displayed information as values, making it easy to modify and update their CV
 - Users can add or delete work experience and education fields, providing flexibility and customization options
 - Users can add their own photo
+- Users can donwload their CV as a PDF
 - With a minimalistic and organized design, the app is user-friendly and easy to navigate, allowing users to focus on the content of their CV
